@@ -12,12 +12,13 @@ Algorithm (Fylod's Algorithm aka Tortoise and Hare Algorithm)
         6. Print first.data
 
 LinkedList
-    Space Complexity: space complexity of the node * no of elements in linked list = O(2) * O(n) = O(2n) = O(n)
+    Space Complexity LinkedList: space complexity of the node * no of elements in linked list = O(2) * O(n) = O(2n) = O(n)
     push(new_data):
         Time Complexity: O(1) as we simply need to append new node to next of self.curr
-    
+        Space Complexity LinkedList: O(1)
     printMiddle(arr):    
         Time Complexity: O(n / 2) = O(n) as we are travesing the list at twice the speed
+        Space Complexity LinkedList: O(1)
 '''
 # Node class
 
